@@ -1,0 +1,10 @@
+
+Disparando www.treinaweb.com.br [54.94.197.195] com 32 bytes de dados:
+Esgotado o tempo limite do pedido.
+Esgotado o tempo limite do pedido.
+Esgotado o tempo limite do pedido.
+Esgotado o tempo limite do pedido.
+
+Estat¡sticas do Ping para 54.94.197.195:
+    Pacotes: Enviados = 4, Recebidos = 0, Perdidos = 4 (100% de
+             perda),

@@ -1,0 +1,1 @@
+var abc=80,cde=111;function teste(){return abc+cde}function teste2(){return 2}

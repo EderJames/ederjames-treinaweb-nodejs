@@ -1,0 +1,4 @@
+O arquivo config.json será utilizado pelo jshint, como um modelo de validações de qualidade de código para o JavaScript.
+A estrutura deste arquivo segue o padrão de estruturas de arquivos json, para verificarmos as propriedades válidas para este arquivo, devemos verificar a documentação do jshint.
+Dentro do arquivo config.json, temos um objeto com a propriedade curly, seu significado consiste no seguinte:
+ -> A propriedade curly, obriga o programador a utilizar chaves, para comandos de repetição e de decisão, tais como if, for, while entre entre outros.

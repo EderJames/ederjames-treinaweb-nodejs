@@ -1,0 +1,32 @@
+// O Jade é uma linguagem de html que facilita o desenvolvimento de páginas web
+// Através do Jade, podemos criar templates, herda-los e também podemos fazer comando de programação, tais como comandos de decisão, repetição, funções e variáveis
+html
+    head
+        title TreinaWeb
+    body
+
+    each val in data
+        li
+            div= val.nome
+            div= val.categoria
+            br
+        br
+        br
+
+    form(action="/" method="post")
+        label Nome:
+        input(
+            type="text"
+            name="nome"
+            required
+        )
+        label Categoria:
+        select(name="categoria" required)
+            option Back-End
+            option Desenvolvimento de Jogos
+            option Front-End
+            option Mobile
+        input(
+            type="submit"
+            value="enviar"
+        )

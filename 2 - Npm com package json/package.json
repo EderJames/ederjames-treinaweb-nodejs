@@ -1,0 +1,24 @@
+{
+  "name": "treinaweb-node-promise",
+  "version": "1.0.0",
+  "description": "treinaweb com node e promise",
+  "main": "app.js",
+  "dependencies": {
+    "promise": "^8.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create_file": "copy NUL arquivo.txt", 
+    "ping_log": "ping www.treinaweb.com.br > arquivo.txt"
+  },
+  "keywords": [
+    "node",
+    "treinaweb",
+    "promise"
+  ],
+  "author": "",
+  "license": "ISC"
+}
